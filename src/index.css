@@ -9,22 +9,27 @@ body {
     font-family: 'Karla', sans-serif;
 }
 
-main {
-    background-color: #F5F5F5;
-    height: 400px;
-    max-width: 800px;
-    border-radius: 5px;
-    padding: 20px;
-    display: flex;
+
+
+.confetti {
+   border-radius: 5px;
+    padding: 2rem;
+      display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 1rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    background-color: #F5F5F5;
 }
 
 .dice-container {
     display: grid;
+    max-width: 800px;
     grid-template: auto auto / repeat(5, 1fr);
     gap: 20px;
+   
 }
 
 .die-face {
@@ -44,7 +49,7 @@ main {
 
 .roll-dice {
     height: 50px;
-    width: 100px;
+    width: 150px;
     border: none;
     border-radius: 6px;
     background-color: #5035FF;
